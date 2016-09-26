@@ -18,7 +18,3 @@ Route::get('/', function () {
 Route::get('admin', function () {
     return view('admin_view');
 });
-
-Route::get('student', function() {
-    $student = App\Student::first();
-});
