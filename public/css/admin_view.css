@@ -1,0 +1,48 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+.container {
+    width:980px;
+    margin:0 auto;
+}
+
+#selector {
+    text-align:center;
+}
+
+.selector {
+    text-align:center;
+    padding:0;
+    overflow:hidden;
+    display:inline-block;
+}
+
+.selector li {
+    display:inline;
+    font-size:40px;
+    padding-left:40px;
+    padding-right:40px;
+    border:1px solid black;
+}
+
+.selector li:hover {
+    background-color: #2196f3;
+}
+
+#student {
+    width:300px;
+    margin:50px auto;
+    text-align:left;
+    font-size:24px;
+}
+
+.submit {
+    font-size:24px;
+    margin:20px auto;
+
+}
+
+
+
