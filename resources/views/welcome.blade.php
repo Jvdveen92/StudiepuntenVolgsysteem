@@ -75,7 +75,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                   Voortgangssysteem
                 </div>
 
                 <div class="links">
