@@ -20,12 +20,8 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 
-Auth::routes();
 
-Route::get('/home', 'HomeController@index');
-
-Auth::routes();
-
+<<<<<<< HEAD
 Route::get('/leereenheden', 'LeereenhedenController@index');
 
 Auth::routes();
@@ -39,6 +35,9 @@ Route::get('/dashboard', 'DashboardController@index');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+=======
+Route::get('leereenheden', 'LeereenhedenController@index');
+>>>>>>> origin/master
 
 Route::get('admin', function () {
     return view('admin_view');
