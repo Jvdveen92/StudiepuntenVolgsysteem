@@ -30,6 +30,14 @@ Route::get('/leereenheden', 'LeereenhedenController@index');
 
 Auth::routes();
 
+Route::get('/opdrachten', 'OpdrachtenController@index');
+
+Auth::routes();
+
+Route::get('/dashboard', 'DashboardController@index'); 
+
+Auth::routes();
+
 Route::get('/home', 'HomeController@index');
 
 Route::get('admin', function () {
