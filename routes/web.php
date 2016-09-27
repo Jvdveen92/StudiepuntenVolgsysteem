@@ -26,6 +26,10 @@ Route::get('/home', 'HomeController@index');
 
 Auth::routes();
 
+Route::get('/leereenheden', 'LeereenhedenController@index');
+
+Auth::routes();
+
 Route::get('/home', 'HomeController@index');
 
 Route::get('admin', function () {
