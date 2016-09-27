@@ -45,7 +45,7 @@
                     <div class="col-md-12 well clickable" style="margin: 5px; padding: 10px;">Opdracht 1</div>
                     <div class="col-md-12 well clickable" style="margin: 5px; padding: 10px;">Opdracht 2</div>
                     <div class="col-md-12 well clickable" style="margin: 5px; padding: 10px;">Opdracht 3</div>
-                    <div class="col-md-12 well clickable" style="margin: 5px; padding: 10px;">Opdracht 4</div>
+                    <div class="col-md-12 well clickable" style="margin: 5px; padding: 10px;">Opdracht 45</div>
                 </div>
             </div>
 
