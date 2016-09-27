@@ -20,17 +20,8 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 
-Auth::routes();
 
-Route::get('/home', 'HomeController@index');
-
-Auth::routes();
-
-Route::get('/leereenheden', 'LeereenhedenController@index');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index');
+Route::get('leereenheden', 'LeereenhedenController@index');
 
 Route::get('admin', function () {
     return view('admin_view');
